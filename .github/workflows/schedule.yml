@@ -5,6 +5,7 @@ on:
 jobs:
   update-gist:
     runs-on: ubuntu-latest
+    environment: wakatime
     steps:
       - uses: actions/checkout@master
       - name: Update gist
